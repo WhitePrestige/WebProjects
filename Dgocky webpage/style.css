@@ -1,0 +1,758 @@
+body {
+  margin: 0;
+}
+@font-face {
+    font-family: Gilbert; /* Гарнитура шрифта */
+    src: url(Fonts/Gilbert.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face{
+	font-family: Poppins;
+	src: url(Fonts/Poppins-Regular.ttf);
+}
+.top-header-align{
+    width: 1172px;
+    margin: 0 auto;
+}
+.top-header{
+	background: #020c16;
+	width: 100%;
+	height: 82px;
+	position: relative;
+}
+.logo-top-header{
+	display: inline-block;
+    font-family: Gilbert, 'Gilbert';
+    font-size: 31px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #ff4c6b 10%, #ce52c2 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}.about,.event,.gallery,.djs,.schedule,.blog,.faq,.contact{
+	display: inline-block;
+    margin-left: 20px;
+
+}
+.navigation{
+    margin-top: -32px;
+    text-align: right;
+    font-size: 15px;
+    font-family: Poppins;
+    color: white;
+    letter-spacing: 0.4px;
+}
+.name-org-align{
+    width: 603px;
+    height: 595px;
+    margin: 0 auto;
+    text-align: right;
+}
+.name-org{
+    height: 594px;
+    background-color: #020c16;
+    width: 100%;
+}
+.header-logo-big{
+    display: inline-block;
+    font-weight: bold;
+    font-family: Gilbert, 'Gilbert';
+    font-size: 200px;
+    margin-top: 120px;
+    background: linear-gradient(90deg, #ed5f79 40%, #b337a9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.night-club-text{
+    font-family: Poppins;
+    font-size: 24px;
+    margin-top: 21px;
+    letter-spacing: 7.4px;
+    color: white;
+    text-align: right
+}
+.promo-header{
+    width: 100%;
+    height: 225px;
+    background-color: #020c16;
+}
+.promo-header-align{
+    width: 100%;
+}
+.mat-ego-ebu4ie-ravno{
+    width: 1170px;
+    height: 225px;
+    margin: 0 auto;
+}
+.get-ticket-btn{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    border: 0px solid rgba(0,0,0,0);
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+    margin-right: 26px;
+}
+.exp-more-btn{
+    background: #ffffff00;
+    border-image: linear-gradient(to left, #b83ba8, #f4617d);
+    border-image-slice: 1;
+    border-width: 2px;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+    text-align: center;
+    letter-spacing: -0.9px;
+    margin-right: -26px;
+}
+.promo-header-inp{
+    float: right;
+    line-height: 252px;
+    padding-right: 18px;
+}
+.promo-header-grl-img{
+    width: 33%;
+    float: left;
+}
+.promo-vid-text{
+    flex-direction: column;
+    margin-top: 106px;
+}
+.promo-vid{
+    float: left;
+    width: 30%;
+    display: flex;
+}
+.play-vid{
+    padding: 17px;
+    margin-top: 78px;
+}
+.promo-vid-text-header{
+    font-weight: bold;
+    font-family: Poppins;
+    background: linear-gradient(90deg, #ed5f79 40%, #b337a9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    margin-top: -13px;
+}
+.promo-vid-watch{
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.event-bgrnd{
+    margin-top: 0px;
+    width: 100%;
+    background-color: #020c16;
+    height: 501px;
+}
+.event-start-plate{
+    margin: auto;
+    width: 1175px;
+    height: 501px;
+    background-color: #020c16;
+}
+.ESP-text{
+    font-weight: bold;
+    font-family: Gilbert, 'Gilbert';
+    display: inline-block;
+    margin-top: 132px;
+    letter-spacing: 0.9px;
+    background: linear-gradient(90deg, #ed5f79 40%, #b337a9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+.ESP-squares{
+    margin-top: -150px;
+    margin-left: 537px;
+}
+.ESP-days-square,.ESP-hours-square,.ESP-minutes-square,.ESP-seconds-square{
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 26px;
+    border-radius: 4px;
+    width: 130px;
+    height: 110px;
+    background: linear-gradient(90deg, #261825 40%, #1d132c 80%);
+}
+.ESP-days,.ESP-hours,.ESP-minutes,.ESP-seconds{
+    margin-top: 3px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    color: white;
+}
+.ESP-days-text,.ESP-hours-text,.ESP-minutes-text,.ESP-seconds-text{
+    font-family: Poppins;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+.hello-plate{
+    width: 100%;
+    height: 586px;
+    background-color: #020c16;
+}
+.hello-plate-align{
+    height: 585px;
+    width: 1172px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(IMG/hello-plate-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hello-plate-text-align{
+    width: 604px;
+    height: 590px;
+}
+.hello-plate-exp-more-btn{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    margin-top: 41px;
+    border: 0px solid rgba(0,0,0,0);
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+.hello-plate-text-header{
+    font-size: 75px;
+    display: inline-block;
+    margin-top: 73px;
+    letter-spacing: -1px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hello-plate-text{
+    font-family: Poppins;
+    margin-top: 20px;
+    line-height: 26px;
+    font-size: 16px;
+    color: white;
+}
+.photo-gallery-palte{
+    width: 100%;
+    height: 1000px;
+    background-color: #020c16;
+    text-align: center;
+}
+.photo-gallery-text{
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 18px;
+    font-size: 74px;
+    letter-spacing: -1px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.photo-gallery-img{
+    height: 630px;
+    width: 1152px;
+    margin: 0 auto;
+}
+.photo-gallery-img-align{
+    width: 100%;
+    margin-top: 39px;
+}
+.img-pg-grl{
+    width: 32%;
+    float: left;
+}
+.img-pg-ll-pink{
+    width: 37.5%;
+    float: left;
+}
+.img-pg-man{
+    width: 30.5%;
+    float: right;
+    display: inline-block;
+}
+.about-menu{
+    width: 100%;
+    height: 845px;
+    background-color: #020c16;
+}
+.about-menu-align{
+    width: 1172px;
+    height: 650px;
+    margin: 0 auto;
+}
+.about-menu-gradient-sqr{
+    width: 870px;
+    height: 650px;
+    float: right;
+    border-radius: 6px;
+    margin-top: 62px;
+    background: linear-gradient(90deg, #261825 40%, #1d132c 80%);
+}
+.about-menu-sqr-text-align{
+    width: 540px;
+    height: 650px;
+    float: right;
+}
+.about-menu-header-text{
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 76px;
+    margin-top: 40px;
+    letter-spacing: -2.7px;
+}
+.about-menu-text{
+    color: white;
+    font-family: Poppins;
+    margin-top: 20px;
+    line-height: 24px;
+    padding-right: 70px;
+}
+.about-menu-img{
+    transform: translate(-295px, -715px);
+}
+.about-menu-btn{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    margin-top: 41px;
+    border: 0px solid rgba(0,0,0,0);
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+.events-tickets-palte{
+    width: 100%;
+    height: 840px;
+    background-color: #020c16;
+    text-align: center;
+}
+.events-ticket-plate-align{
+    width: 1200px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 95px;
+}
+.events-ticket-plate-align-100{
+    width: 100%;
+    height: 380px;
+}
+.basic-pass,.standart-pass,.premium-pass,.business-pass{
+    width: 22.5%;
+    margin-left: 26px;
+    height: 380px;
+    display: inline-block;
+    background: linear-gradient(90deg, #261825 40%, #1d132c 80%);
+    border-radius: 5px;
+}
+.event-tickets-text-header{
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 21px;
+    font-size: 74px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bp-cost{
+        font-size: 48px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: -15px;
+}
+.BASIC_PASS{
+        font-size: 21px;
+    font-weight: bold;
+        margin-top: 8px;
+}
+.bp-reg{
+    margin-top: -14px;
+    margin-left: 26px;
+    letter-spacing: -0.9px;
+}
+.bp-Comf{
+    margin-top: 6px;
+    margin-left: 25px;
+    letter-spacing: -0.9px;
+}
+.bp-cof{
+    margin-top: 6px;
+    margin-left: 25px;
+}
+.bp-ws{
+        margin-top: 7px;
+    margin-left: 26px;
+    letter-spacing: -0.9px;
+}
+.bp-c{
+        margin-top: 5px;
+    margin-left: 25px;
+    letter-spacing: -0.9px;
+}
+.bp-pr{
+        margin-top: -4px;
+    letter-spacing: 0.2px;
+}
+
+.basic-pass-text-plate{
+        text-align: left;
+    margin: 26px;
+    margin-top: 62px;
+}
+.basic-pass{
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    font-family: Poppins;
+    line-height: 24px;
+}
+.standart-pass{
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    font-family: Poppins;
+    line-height: 24px;
+}
+.premium-pass{
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    font-family: Poppins;
+    line-height: 24px;
+}
+.business-pass{
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    font-family: Poppins;
+    line-height: 24px;
+}
+.buy-ticket-bp{
+    transform: translate(-5px, 2px);
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    border: 0px solid rgba(0,0,0,0);
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    outline: 0;
+}
+.most-pop-st-pass{
+    width: 270px;
+    height: 43px;
+    font-family: Poppins;
+    background: linear-gradient(90deg, #f8526d 40%, #b22ca7 80%);
+    border-radius: 5px;
+    margin-left: -8px;
+    margin-top: 0px;
+    display: inline-block;
+}
+.most-pop-align{
+    width: 270px;
+    height: 54px;
+    margin-top: -54px;
+    line-height: 44px;
+}
+.weekdays{
+    width: 100%;
+    height: 1522px;
+    background-color: #020c16;
+    text-align: center;
+}
+.weekdays-text-header{
+    display: inline-block;
+    margin-top: 110px;
+    font-size: 75px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.8px;
+}
+.weekdays-plate-align{
+    height: 410px;
+    width: 1230px;
+    margin: 0 auto;
+}
+.first-day-align{
+    width: 100%;
+    height: 350px;
+    margin-top: 43px;
+}
+.first-day-img{
+    width: 52.5%;
+    vertical-align: bottom;
+    float: left;
+    background-image: url(IMG/weekdays-first-day-img.png);
+    height: 350px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.first-day-text{
+    color: white;
+    width: 45%;
+    display: inline-block;
+    margin-left: -45px;
+    margin-top: 52px;
+    line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+}
+.fdt-header{
+    color: white;
+    letter-spacing: -0.45px;
+    font-size: 25px;
+}
+.fdt-name{
+    font-size: 24px;
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.fdt-name-text{
+    letter-spacing: 0.25px;
+    font-size: 17.8px;
+    line-height: 43px;
+}
+.second-day-align{
+    width: 100%;
+    height: 350px;
+    margin-top: 60px;
+}
+.second-day-img{
+    width: 50%;
+    vertical-align: bottom;
+    float: right;
+    background-image: url(IMG/weekdays-second-day-img.png);
+    height: 350px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.second-day-text{
+    color: white;
+    width: 45%;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 53px;
+    line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+}
+.sdt-header{
+    color: white;
+    letter-spacing: -0.45px;
+    font-size: 25px;
+}
+.sdt-text{
+    margin-top: -2px;
+}
+.sdt-name{
+    font-size: 24px;
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 23px;
+    font-weight: bold;
+}
+.sdt-name-text{
+    letter-spacing: 0.25px;
+    font-size: 17.8px;
+    line-height: 55px;
+}
+.third-day-align{
+    width: 100%;
+    height: 350px;
+    margin-top: 60px;
+}
+.third-day-img{
+    width: 52.5%;
+    vertical-align: bottom;
+    float: left;
+    background-image: url(IMG/weekdays-third-day-img.png);
+    height: 350px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.third-day-text{
+    color: white;
+    width: 45%;
+    display: inline-block;
+    margin-left: -47px;
+    margin-top: 53px;
+    line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+}
+.tdt-header{
+    color: white;
+    letter-spacing: -0.45px;
+    font-size: 25px;
+}
+.tdt-text{
+    margin-top: -2px;
+}
+.tdt-name{
+    font-size: 24px;
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 23px;
+    font-weight: bold;
+}
+.tdt-name-text{
+    letter-spacing: 0.25px;
+    font-size: 17.8px;
+    line-height: 55px;
+}
+.sign-member{
+    width: 100%;
+    height: 445px;
+    background-color: #020c16;
+    margin: 0 auto;
+    text-align: center;
+}
+.sign-member-text{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 74px;
+    letter-spacing: -0.7px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sign-member-inpt{
+    border: none;
+    background-color: #211529;
+    outline: none;
+    cursor: pointer;
+    flex: 100%;
+    color: white;
+    padding-left: 29px;
+    margin-left: -12px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+.sign-plase{
+    width: 600px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 41px;
+    display: flex;  
+}
+.sign-member-btn{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    border: rgba(0,0,0,0);
+    width: 304px;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    outline: 0;
+}
+.drop-message{
+    height: 885px;
+    width: 100%;
+    background-color: #020c16;
+    margin: 0 auto;
+    text-align: center;
+}
+.drop-message-text-header{
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 24px;
+    font-size: 74px;
+    letter-spacing: -0.7px;
+    font-family: Gilbert, 'Gilbert';
+    background: linear-gradient(90deg, #f8526d 10%, #b22ca7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 43px;
+}
+.drop-mes-inp{
+    width: 777px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.enter-email-drop-mes,.subject-drop-mes,.write-drop-mes{
+    margin-bottom: 30px;
+    height: 65px;
+    padding-left: 30px;
+    border: none;
+    background-color: #211529;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins;
+    border-radius: 7px;
+}
+.write-drop-mes{
+    resize: none;
+    padding: 25px;
+    height: 165px;
+}
+.drop-mes-btn{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    font-family: Poppins;
+    border: 0px solid rgba(0,0,0,0);
+    width: 777px;
+    height: 70px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+.top-bottom-align{
+    width: 1160px;
+    margin: 0 auto;
+}
+.top-bottom{
+    background: linear-gradient(90deg, #f5627c, #b539a9);
+    width: 100%;
+    height: 131px;
+}
+.logo-top-bottom{
+    display: inline-block;
+    color: white;
+    font-family: Gilbert, 'Gilbert';
+    font-size: 31px;
+    margin-top: 44px;
+}
