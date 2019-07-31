@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Js Cinemabooking</title>
+	<link rel="stylesheet" href="uikit.min.css">
+</head>
+<body class="all">
+
+
+	<div id="app" >
+		<div class="uk-container uk-height-large"  id="app">
+		<nav class="uk-navbar-container" uk-navbar>
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav">
+					<li><router-link to="/">Главная</router-link></li>
+					<li><router-link to="/movies">Фильмы</router-link></li>
+				</ul>
+			</div>
+		</nav>
+		<router-view></router-view>
+	</div>
+	</div>
+
+
+	<template id="movies">
+			<div class="uk-flex uk-margin-top">
+				<div class="uk-margin-remove uk-width-1-1" uk-grid>
+					<div v-for="(movie, index) in $root.movies" class="uk-card uk-card-default uk-card-body uk-width-1-4">
+						<router-link v-bind:to="'/movies/' + index">{{ movie.caption }}</router-link>
+					</div>
+				</div>
+			</div>
+	</template>
+
+
+	<template id="movie" class="movie">
+		<div >
+			<img class="uk-align-left uk-margin-remove-adjacent" v-bind:src="$root.movies[$route.params.dynamicId].pic">
+			<div>Название: {{ $root.movies[$route.params.dynamicId].caption }}</div>
+			<div>Описание: {{ $root.movies[$route.params.dynamicId].desc }}</div>
+			<div v-for="(movie, index) in $root.movies[$route.params.dynamicId].times">
+				<router-link v-bind:to="'/movies/' + $route.params.dynamicId + '/' + index">{{ movie }}</router-link>
+			</div>
+		</div>
+	</template>
+
+	<template id="times">
+		<div class="zal">
+			<div v-for="(row, rowIndex) in $root.seats" uk-grid>
+				<div class="seat" v-for="(seat, seatIndex) in row" v-on:click="$root.changeState(rowIndex, seatIndex)" v-bind:class="{'state' : seat.state}">{{ seat.value }}</div>
+			</div>
+		</div>
+	</template>
+
+<style>
+	.seat{
+	    width: 51px;
+    	height: 26px;
+		border: solid 1px black;
+		background-color: paleturquoise;
+	}
+	.state{
+		background-color: red;
+	}
+	.zal{
+		position: absolute;
+    	top: 25%;
+    	left: 35%;
+	}
+</style>
+
+
+
+<script src="uikit.min.js"></script>
+<script src="uikit-icons.min.js"></script>
+<script src="vue.js"></script>
+<script src="vue-router.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
